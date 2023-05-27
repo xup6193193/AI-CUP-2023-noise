@@ -44,7 +44,7 @@ Oversampling:利用excel的篩選功能將聲帶腫瘤、聲帶正常的資料�
 ### 輸入待預測集
 在這裡 ` df_public = pd.read_csv('public.csv')` 放入待預測檔案
 
-### 輸出
+## 預測
 `new_tmp.to_csv("result.csv", index=False)` 在 `result.csv` 中輸入您想要的檔名
 
 如果遇到錯誤請檢查是否有[資料處理](#資料處理)裡提到的問題
